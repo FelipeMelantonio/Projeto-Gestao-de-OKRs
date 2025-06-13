@@ -1,0 +1,44 @@
+
+
+/*CODIGO DO PROJETO ANTERIOR*/
+:root {
+  --background: #969696;
+  --foreground: #f8fafc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #102f2a;
+    --foreground: #878b8a;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/**/
+body {
+  color: var(--foreground); /*cor da letra*/
+  background: var(--background);/*cor da imagem de fundo*/
+  -webkit-font-smoothing: antialiased;/*Para chrome */
+  -moz-osx-font-smoothing: grayscale; /*para sistema Mac OS*/
+  
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
